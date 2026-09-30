@@ -17,3 +17,5 @@ Publishing this folder to a public GitHub Pages repository will make the portrai
 ## GitHub Pages
 
 The live site is published at https://drmmousa2000.github.io/from-ration-to-response/ from the `main` branch root. The presentation registration form is at https://form.jotform.com/262726608496065.
+
+The PowerPoint is hosted as a public GitHub Pages file. The form records registrations and displays a post-submit download button, but it does not prevent visitors who find the direct file URL from downloading or sharing the presentation.
