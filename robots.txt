@@ -1,2 +1,3 @@
 User-agent: *
 Allow: /
+Sitemap: https://drmmousa2000.github.io/from-ration-to-response/sitemap.xml

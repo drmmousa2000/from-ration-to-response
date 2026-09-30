@@ -4,12 +4,13 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#173f36">
-  <meta name="description" content="The work of Prof. Mousa M. A., Professor of Nutrition and Clinical Nutrition at the Faculty of Veterinary Medicine, Sohag University, Egypt, and author of From Ration to Response.">
+  <meta name="description" content="Explore From Ration to Response, a modern farm guide by Prof. Mousa M. A., and register to download its promotional presentation.">
+  <link rel="canonical" href="https://drmmousa2000.github.io/from-ration-to-response/">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Prof. Mousa M. A. | Ruminant Nutrition">
-  <meta property="og:description" content="Connecting feed decisions with rumen function, cow health, milk, manure, and practical farm evidence.">
-  <meta property="og:image" content="author-portrait.jpg">
-  <meta name="twitter:card" content="summary">
+  <meta property="og:title" content="From Ration to Response | Prof. Mousa M. A.">
+  <meta property="og:description" content="A modern farm guide to fiber, manure, rumen function, and precision ruminant nutrition.">
+  <meta property="og:image" content="https://drmmousa2000.github.io/from-ration-to-response/book-promo-cover.jpg">
+  <meta name="twitter:card" content="summary_large_image">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -27,6 +28,7 @@
         "name": "From Ration to Response",
         "author": { "@type": "Person", "name": "Prof. Mousa M. A." },
         "description": "A modern farm guide to fiber, manure, rumen function and precision ruminant nutrition.",
+        "image": "https://drmmousa2000.github.io/from-ration-to-response/book-promo-cover.webp",
         "inLanguage": "en"
       }
     ]
@@ -97,20 +99,24 @@
     .focus-list li { display: flex; gap: 10px; align-items: flex-start; color: var(--forest); font-size: 14px; }
     .focus-list li::before { content: "✳"; color: var(--leaf); font-size: 16px; }
     .book-layout { display: grid; grid-template-columns: .8fr 1.2fr; gap: 74px; align-items: center; }
-    .book-cover { position: relative; width: min(100%, 345px); aspect-ratio: 2/3; margin: auto; overflow: hidden; padding: 31px 27px; background: linear-gradient(158deg, #f7f4e8 0 48%, #dbe7d2 48% 64%, #21493e 64%); box-shadow: 0 24px 54px rgba(22,52,41,.2); }
-    .book-cover::before { content: ""; position: absolute; width: 230px; height: 140px; right: -44px; bottom: 28%; border: 1px solid rgba(255,255,255,.6); border-radius: 50%; transform: rotate(-22deg); }
-    .cover-kicker { position: relative; color: var(--forest-2); font-size: 8px; font-weight: 800; letter-spacing: .18em; }
-    .book-cover h3 { position: relative; margin: 20px 0 11px; color: var(--forest); font: 700 clamp(27px, 3vw, 36px)/.97 var(--serif); letter-spacing: -.04em; }
-    .book-cover h3 span { color: #528253; }
-    .cover-sub { position: relative; max-width: 200px; color: #4e6258; font: 11px/1.5 var(--sans); }
-    .cover-flow { position: absolute; right: 17px; bottom: 25%; left: 17px; display: flex; justify-content: space-between; color: white; font-size: 7px; font-weight: 800; letter-spacing: .05em; }
-    .cover-author { position: absolute; right: 24px; bottom: 19px; left: 24px; color: white; font-size: 9px; font-weight: 700; letter-spacing: .07em; }
+    .book-cover-image { width: min(100%, 410px); margin: auto; overflow: hidden; background: var(--paper); box-shadow: 0 24px 54px rgba(22,52,41,.2); }
+    .book-cover-image img { display: block; width: 100%; height: auto; }
     .book-info h2 { margin: 11px 0 17px; color: var(--forest); font: 500 clamp(38px, 4vw, 54px)/1.06 var(--serif); letter-spacing: -.035em; }
     .book-info > p { max-width: 620px; color: #56675f; }
     .book-meta { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin: 28px 0; }
     .meta-item { padding: 14px 16px; border-left: 2px solid var(--leaf); background: #f4f6ef; }
     .meta-item strong { display: block; color: var(--forest); font-size: 12px; text-transform: uppercase; letter-spacing: .08em; }
     .meta-item span { color: var(--muted); font-size: 13px; }
+    .presentation-layout { display: grid; grid-template-columns: .8fr 1.2fr; gap: 52px; align-items: start; }
+    .presentation-copy { padding: 28px; background: #f3f5ec; border-left: 3px solid var(--leaf); }
+    .presentation-copy h3 { margin: 0 0 12px; color: var(--forest); font: 29px/1.2 var(--serif); }
+    .presentation-copy p { color: #53645c; }
+    .presentation-points { margin: 20px 0 0; padding-left: 20px; color: var(--forest); }
+    .registration-panel { min-width: 0; padding: 28px; background: var(--paper); border: 1px solid var(--line); }
+    .registration-panel h3 { margin: 0 0 7px; color: var(--forest); font: 29px/1.2 var(--serif); }
+    .registration-panel > p { margin-bottom: 12px; color: var(--muted); font-size: 14px; }
+    .registration-panel iframe { display: block; width: 100%; height: 1100px; border: 0; }
+    .privacy-note { margin: 8px 0 0 !important; font-size: 12px !important; }
     .topic-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 15px; }
     .topic { min-height: 190px; padding: 24px; border: 1px solid var(--line); background: var(--paper); }
     .topic-number { color: var(--leaf); font: 26px var(--serif); }
@@ -138,7 +144,7 @@
       nav a { padding: 11px 4px; }
       .nav-cta { margin: 6px 0 10px; text-align: center; }
       .hero { padding: 32px 0 58px; }
-      .hero-grid, .about-grid, .book-layout { grid-template-columns: 1fr; gap: 35px; }
+      .hero-grid, .about-grid, .book-layout, .presentation-layout { grid-template-columns: 1fr; gap: 35px; }
       .hero-grid { min-height: auto; }
       h1 { font-size: clamp(49px, 13vw, 68px); }
       .art { min-height: 360px; }
@@ -147,7 +153,9 @@
       .section { padding: 68px 0; }
       .about-grid { gap: 27px; }
       .focus-list { grid-template-columns: 1fr; }
-      .book-cover { width: min(74%, 300px); }
+      .book-cover-image { width: min(100%, 410px); }
+      .registration-panel { padding: 18px; }
+      .registration-panel iframe { height: 1400px; }
       .topic-grid { grid-template-columns: 1fr; }
       .topic { min-height: 0; }
       .method { grid-template-columns: 1fr 1fr; }
@@ -162,7 +170,7 @@
     <a class="brand" href="#home" aria-label="Prof. Mousa M. A. homepage"><span class="mark">M</span><span>Prof. Mousa M. A.</span></a>
     <button class="menu-button" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="main-nav">☰</button>
     <nav id="main-nav" aria-label="Main navigation">
-      <a href="#about">About</a><a href="#book">The book</a><a href="#work">Focus areas</a><a href="#approach">Approach</a><a class="nav-cta" href="#book">Explore the guide</a>
+      <a href="#about">About</a><a href="#book">The book</a><a href="#presentation">Presentation</a><a href="#work">Focus areas</a><a href="#approach">Approach</a><a class="nav-cta" href="#presentation">Get the slides</a>
     </nav>
   </header>
 
@@ -219,14 +227,20 @@
 
     <section class="section" id="book">
       <div class="wrap book-layout">
-        <div class="book-cover" aria-label="Book cover design for From Ration to Response">
-          <div class="cover-kicker">A MODERN FARM GUIDE TO</div><h3>FROM RATION<br>TO <span>RESPONSE</span></h3><div class="cover-sub">Fiber, manure, rumen function and precision ruminant nutrition</div>
-          <div class="cover-flow"><span>FEED</span><span>RUMEN</span><span>COW</span><span>MILK</span><span>MANURE</span><span>DATA</span></div>
-          <div class="cover-author">PROF. MOUSA M. A.</div>
-        </div>
+        <div class="book-cover-image"><img src="book-promo-cover.webp" alt="From Ration to Response book cover: a modern farm guide to fiber, manure, rumen function, and precision ruminant nutrition"></div>
         <div class="book-info"><div class="eyebrow">The practical guide</div><h2>From Ration<br>to Response</h2><p>A practical handbook for connecting ration formulation with observable biological and production responses. Follow the path from feed analysis and TMR delivery through rumen function, manure, milk, and farm data.</p><p>Written for veterinarians, animal nutritionists, dairy consultants, farm managers, and advanced dairy farmers.</p>
           <div class="book-meta"><div class="meta-item"><strong>Focus</strong><span>Fiber · rumen · manure · milk</span></div><div class="meta-item"><strong>Format</strong><span>Practical farm handbook</span></div></div>
           <a class="button primary" href="From%20Ration%20to%20Response.docx" download>Download the book manuscript (Word) <span aria-hidden="true">↓</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section white" id="presentation">
+      <div class="wrap">
+        <div class="section-heading"><div class="eyebrow">Promotional presentation</div><h2>Explore the ideas behind the book.</h2><p>A nine-slide visual introduction to the nutrition pathway from feed and rumen function to manure, milk, and measurable response.</p></div>
+        <div class="presentation-layout">
+          <div class="presentation-copy"><h3>Get the PowerPoint presentation</h3><p>Use this short presentation to introduce the book’s central ideas to students, veterinarians, nutritionists, and farm teams.</p><ul class="presentation-points"><li>Feed, particle, rumen, digestion, and passage</li><li>Physically effective fiber and manure observations</li><li>A practical loop for measuring and reviewing response</li></ul></div>
+          <div class="registration-panel" id="registration"><h3>Register to download</h3><p>Complete the form below. After submitting it, you’ll see the presentation download option.</p><iframe title="Registration form to download the From Ration to Response presentation" src="https://form.jotform.com/262726608496065" loading="lazy"></iframe><p class="privacy-note">Your registration is stored in Jotform to provide this download. Book updates are optional.</p></div>
         </div>
       </div>
     </section>
