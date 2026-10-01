@@ -12,6 +12,7 @@ A responsive static website for Prof. Mousa M. A. and his animal nutrition books
 - `From_Ration_to_Response.pptx` — promotional presentation offered through the registration flow
 - `aquaculture-preview-page-01.jpg` through `aquaculture-preview-page-09.jpg` — opening-page images from the aquaculture book PDF
 - `Digital_Aquaculture_Nutrition_Book_Preview.pdf` — a nine-page excerpt for website visitors
+- `nutritional-diseases-preview/` — cover and opening-page images plus a 10-page excerpt of *Nutritional Diseases in Farm Animals*
 - `robots.txt` and `sitemap.xml` — search crawler discovery files
 
 Publishing this folder to a public GitHub Pages repository will make the portrait and manuscript publicly available.
@@ -22,4 +23,4 @@ The live site is published at https://drmmousa2000.github.io/from-ration-to-resp
 
 The PowerPoint is hosted as a public GitHub Pages file. The form records registrations and displays a post-submit download button, but it does not prevent visitors who find the direct file URL from downloading or sharing the presentation.
 
-The aquaculture preview includes only the first nine pages of the supplied PDF; the full 117-page source book is not included in this site package.
+The aquaculture preview includes only the first nine pages of its source PDF. The *Nutritional Diseases in Farm Animals* preview includes only the first ten pages of its 261-page source PDF. Neither full source book is included in this site package. The latter is presented as a paid title; purchase details are not yet connected.
